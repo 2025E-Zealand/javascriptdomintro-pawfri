@@ -24,12 +24,19 @@ changeAttribute.setAttribute("class","cool");
 // Find a specific item, add the attribute hidden= true” to hide the element I the browser
 // Hidden id 'two': pine nuts
 let hideAttribute = document.getElementById("two");
-hideAttribute.hidden = true;
+hideAttribute.setAttribute("hidden", "true");
 
 // Find a specific nodes, e.g. all items with class=” unhealty try to change the class attribute
 let UnhealthyItem = Array.from(document.getElementsByClassName("unhealthy"));
 
 UnhealthyItem[0].setAttribute("class", "hot");
 UnhealthyItem[1].setAttribute("class", "hot");
+
+// TASK 3
+
+
+
+
+
 
 console.log("slut på JavaScript")
